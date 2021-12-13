@@ -11,8 +11,7 @@ class ZeroEvenOdd(object):
     def zero(self, printNumber):
         for i in range(1,self.n+1,1):
             self.s1.acquire()
-            x = threading.Thread(target = printNumber,args=(0,))
-            x.start()
+            printNumber(0)
             if i % 2 == 0:
                 self.s2.release()
             else:
@@ -26,8 +25,7 @@ class ZeroEvenOdd(object):
     def even(self, printNumber):
         for i in range (2,self.n+1,2) :
             self.s2.acquire()
-            x = threading.Thread(target = printNumber,args=(i,))
-            x.start()
+            printNumber(i)
             self.s1.release()
         """
         :type printNumber: method
@@ -38,8 +36,7 @@ class ZeroEvenOdd(object):
     def odd(self, printNumber):
         for i in range (1,self.n+1,2):
             self.s3.acquire()
-            x = threading.Thread(target = printNumber,args=(i,))
-            x.start()
+            printNumber(i)
             self.s1.release()
         """
         :type printNumber: method
