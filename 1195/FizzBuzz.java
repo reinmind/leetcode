@@ -1,5 +1,3 @@
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.IntConsumer;
 
 class FizzBuzz {
