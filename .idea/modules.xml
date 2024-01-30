@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/1-500/1-500.iml" filepath="$PROJECT_DIR$/1-500/1-500.iml" />
       <module fileurl="file://$PROJECT_DIR$/1001-1500/1001-1500.iml" filepath="$PROJECT_DIR$/1001-1500/1001-1500.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1501-2000/1501-2000.iml" filepath="$PROJECT_DIR$/1501-2000/1501-2000.iml" />
       <module fileurl="file://$PROJECT_DIR$/500-1000/500-1000.iml" filepath="$PROJECT_DIR$/500-1000/500-1000.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
     </modules>
