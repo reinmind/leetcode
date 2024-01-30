@@ -1,6 +1,6 @@
 class Solution {
     public static void main(String[] args) {
-        MinInsertions s = new MinInsertions();
+        Solution s = new Solution();
         int e = s.maxPower("cc");
         System.out.println(e);
     }
