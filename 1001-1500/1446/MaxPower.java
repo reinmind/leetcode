@@ -1,9 +1,4 @@
-class Solution {
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        int e = s.maxPower("cc");
-        System.out.println(e);
-    }
+class MaxPower {
     public int maxPower(String s) {
         int e = 1,i = 0;
         char[] ca = s.toCharArray();
