@@ -1,9 +1,8 @@
-import java.util.Collection;
-import java.util.Collections;
+package lc546;
 import java.util.LinkedList;
 
-class Solution {
-    
+public class Solution {
+
     public int removeBoxes(int[] boxes) {
         LinkedList<Integer> list = new LinkedList<>();
         for(int i = 0;i < boxes.length;i++){

@@ -1,4 +1,5 @@
-class Solution {
+package lc733;
+public class Solution {
     int nc,oc,width,height;
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
         nc = newColor;
@@ -28,7 +29,7 @@ class Solution {
         dfs(image,sr-1,sc);
         // move down
         dfs(image,sr+1,sc);
-    } 
+    }
     public static void main(String... args){
         int[][] image = new int[][]{{0,0,0},{0,1,1}};
         Solution s = new Solution();
